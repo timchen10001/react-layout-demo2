@@ -1,0 +1,99 @@
+@media screen and (min-width: 700px) {
+  .sidebar {
+    display: flex;
+    flex-direction: column;
+    flex: 0.3;
+    border-right: 1px solid rgb(226, 225, 225);
+  }
+
+  .sidebar__header > h3 {
+    margin-left: 8px;
+    color: rgb(131, 131, 131);
+  }
+
+  .sidebar__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 105px;
+    background-color: #f1f1f1;
+    border-bottom: 1px solid #ebeaea;
+    padding: 20px;
+    color: lightgrey;
+    min-width: fit-content;
+    max-height:  4rem;
+  }
+
+  .sidebar__headerButton {
+    display: flex;
+    justify-content: space-between;
+    min-width: fit-content;
+  }
+
+  .sidebar__headerButton > button {
+    height: 35px;
+    width: 35px;
+    margin: 0 3px;
+  }
+
+  .sidebar__search {
+    display: flex;
+    align-items: center;
+    background-color: #fafafa;
+    padding: 10px;
+    border-bottom: 1px solid #ebeaea;
+    width: inherit;
+    min-width: 230px;
+  }
+
+  .sidebar__searchContainer {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    height: fit-content;
+    background-color: white;
+    border: 1px solid rgb(236, 236, 236);
+    border-radius: 20px;
+  }
+
+  .sidebar__searchContainer > input {
+    outline-style: none;
+    border: none;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .sidebar__searchContainer > .MuiSvgIcon-root {
+    margin: 0 10px;
+    color: #a8a6a6;
+  }
+
+  .sidebar__searchContainer > button {
+    display: none;
+  }
+
+  .sidebar__body {
+    overflow: scroll;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .sidebar {
+    position: absolute;
+    height: 100px;
+    top: 0;
+    z-index: 100;
+  }
+
+  .sidebar__body {
+    overflow: scroll;
+  }
+
+  .sidebar__header {
+    display: none;
+  }
+
+  .sidebar__search {
+    display: none;
+  }
+}
