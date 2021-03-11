@@ -1,4 +1,4 @@
-** [Whatsapp Clone](https://timchen-whatsapp-clone.web.app/rooms/AbwGzG384sHLCddxI7I2)
+[Whatsapp Clone](https://timchen-whatsapp-clone.web.app/rooms/AbwGzG384sHLCddxI7I2)
 
 Project Skills
 
