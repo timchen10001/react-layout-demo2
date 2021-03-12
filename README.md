@@ -7,6 +7,6 @@ Project Skills
 - OAuth
 - Firebase
 
-![Image](https://media.giphy.com/media/HFtCGJ0DdekNywnuku/giphy.gif)
+![Image](https://res.cloudinary.com/dunc6xvuh/image/upload/v1615472881/material/giphy_2_-min_ybnrdp.gif)
 
 ![Image](https://upload.cc/i1/2021/02/27/kKDSiO.png)
